@@ -20,6 +20,11 @@ $RECYCLE.BIN/
 
 # OSX
 # =========================
+./idea
+./assets
+./bin
+./libs
+./out
 
 .DS_Store
 .AppleDouble

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cuckoo</string>
+    <string name="recButton_name">Rec</string>
+    <string name="playButton_name">Play</string>
+</resources>

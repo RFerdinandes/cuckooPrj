@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/main_l"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView1"
+            android:text="Press button"
+            />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/playButton_name"
+            android:onClick="button1Click"
+            android:id="@+id/button1" style="@android:style/MediaButton.Play" android:clickable="true"
+            android:gravity="center_vertical|center_horizontal" android:ellipsize="marquee" android:layout_gravity="center"
+            android:enabled="true" android:shadowColor="#c7f3ff" android:padding="1dp" android:singleLine="true"
+            android:textColor="#1786ff" android:focusable="true" android:textStyle="bold" android:layout_margin="1dp"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recButton_name"
+            android:id="@+id/buttonStartListening" android:singleLine="true" android:onClick="button2Click"/>
+</LinearLayout>
+
